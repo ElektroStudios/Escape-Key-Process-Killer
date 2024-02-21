@@ -10,6 +10,10 @@
 
 This is a simple command-line application that waits on background until you press the ESCAPE key on your keyboard to terminate the specified process.
 
+## 🖼️ Screenshots
+
+[![See Recorded Video](Images/video.pg)](Video/EscKeyProcKill.avi)
+
 ## 📝 Requirements
 
 - Microsoft Windows OS.
