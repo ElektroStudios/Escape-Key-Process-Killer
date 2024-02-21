@@ -2,7 +2,7 @@
 
 ### Command-line application to terminate a specified running process when you press ESCAPE key
 
-[screenshot](/Images/app.ico)
+[screenshot](/Images/app.png)
 
 ------------------
 
