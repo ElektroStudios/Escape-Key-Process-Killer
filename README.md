@@ -10,6 +10,8 @@
 
 This is a simple command-line application that waits on background until you press the ESCAPE key on your keyboard to terminate the specified process.
 
+This is an old project, with ugly source-code, and probably I will not rewrite it using good and modern habbits.
+
 ## 🖼️ Demo
 
 [![See Recorded Video](Images/video.pg)](Video/EscKeyProcKill.avi)
