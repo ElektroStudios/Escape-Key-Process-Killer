@@ -76,18 +76,18 @@ Syntax: EscKeyProcKill.exe [SWITCHES] [PROCESS NAME]
 
 | Switch | Description |
 | :--- | :--- |
-| **`/Recursive`** | Terminates all running occurrences of the target process. If omitted, only the first occurrence found will be killed. |
-| **`/KillChilds`** | Terminates the specified target process along with any child processes spawned by it. |
-| **`/?`** | Displays the application help and usage syntax. |
+| <nobr>**`/Recursive`**</nobr> | Terminates all running occurrences of the target process. If omitted, only the first occurrence found will be killed. |
+| <nobr>**`/KillChilds`**</nobr> | Terminates the specified target process along with any child processes spawned by it. |
+| <nobr>**`/?`**</nobr> | Displays the application help and usage syntax. |
 
 #### 💡 Syntax Examples
 
 | Command | Action Performed |
 | :--- | :--- |
-| `EscKeyProcKill.exe "notepad.exe"` | Terminates only the **first occurrence** found of `notepad.exe`. |
-| `EscKeyProcKill.exe /Recursive "notepad.exe"` | Terminates **all running occurrences** of `notepad.exe`. |
-| `EscKeyProcKill.exe /KillChilds "notepad.exe"` | Terminates the **first occurrence** of `notepad.exe` and **all of its children**. |
-| `EscKeyProcKill.exe /Recursive /KillChilds "notepad.exe"` | Terminates **every occurrence** of `notepad.exe` along with **all of their children**. |
+| `EscKeyProcKill.exe&nbsp;"notepad.exe"` | Terminates only the **first occurrence** found of `notepad.exe`. |
+| `EscKeyProcKill.exe&nbsp;/Recursive&nbsp;"notepad.exe"` | Terminates **all running occurrences** of `notepad.exe`. |
+| `EscKeyProcKill.exe&nbsp;/KillChilds&nbsp;"notepad.exe"` | Terminates the **first occurrence** of `notepad.exe` and **all of its children**. |
+| `EscKeyProcKill.exe&nbsp;/Recursive&nbsp;/KillChilds&nbsp;"notepad.exe"` | Terminates **every occurrence** of `notepad.exe` along with **all of their children**. |
 
 ## 🔄 Change Log
 
