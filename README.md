@@ -66,9 +66,7 @@ This project was built as a lightweight background utility to solve that specifi
 2. Download the latest `.zip` archive and extract its contents to your preferred directory.
 3. Run the executable file to launch the application.
 
-## 🚀 Usage
-
-### 🛠️ Usage Reference
+## 🛠️ Usage Reference
 
 ```text
 Syntax: EscKeyProcKill.exe [SWITCHES] [PROCESS NAME]
