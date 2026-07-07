@@ -76,18 +76,20 @@ Syntax: EscKeyProcKill.exe [SWITCHES] [PROCESS NAME]
 
 | Switch | Description |
 | :--- | :--- |
-| <code>**`/Recursive`**</code> | Terminates all running occurrences of the target process. If omitted, only the first occurrence found will be killed. |
-| <code>**`/KillChilds`**</code> | Terminates the specified target process along with any child processes spawned by it. |
-| <code>**`/?`**</code> | Displays the application help and usage syntax. |
+| <b><code>/&#8288;Recursive</code></b> | Terminates all running occurrences of the target process. If omitted, only the first occurrence found will be killed. |
+| <b><code>/&#8288;KillChilds</code></b> | Terminates the specified target process along with any child processes spawned by it. |
+| <b><code>/&#8288;?</code></b> | Displays the application help and usage syntax. |
+
+<br>
 
 #### 💡 Syntax Examples
 
 | Command | Action Performed |
 | :--- | :--- |
-| <code>`EscKeyProcKill.exe&nbsp;"notepad.exe"`</code> | Terminates only the **first occurrence** found of `notepad.exe`. |
-| <code>`EscKeyProcKill.exe&nbsp;/Recursive&nbsp;"notepad.exe"`</code> | Terminates **all running occurrences** of `notepad.exe`. |
-| <code>`EscKeyProcKill.exe&nbsp;/KillChilds&nbsp;"notepad.exe"`</code> | Terminates the **first occurrence** of `notepad.exe` and **all of its children**. |
-| <code>`EscKeyProcKill.exe&nbsp;/Recursive&nbsp;/KillChilds&nbsp;"notepad.exe"`</code> | Terminates **every occurrence** of `notepad.exe` along with **all of their children**. |
+| <code>EscKeyProcKill.exe&nbsp;"notepad.exe"</code> | Terminates only the **first occurrence** found of `notepad.exe`. |
+| <code>EscKeyProcKill.exe&nbsp;/&#8288;Recursive&nbsp;"notepad.exe"</code> | Terminates **all running occurrences** of `notepad.exe`. |
+| <code>EscKeyProcKill.exe&nbsp;/&#8288;KillChilds&nbsp;"notepad.exe"</code> | Terminates the **first occurrence** of `notepad.exe` and **all of its children**. |
+| <code>EscKeyProcKill.exe&nbsp;/&#8288;Recursive&nbsp;/&#8288;KillChilds&nbsp;"notepad.exe"</code> | Terminates **every occurrence** of `notepad.exe` along with **all of their children**. |
 
 ## 🔄 Change Log
 
