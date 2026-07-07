@@ -1,4 +1,4 @@
-# Escape Key Process killer (EscKeyProcKill.exe) Change Log 📋
+﻿# Escape Key Process killer (EscKeyProcKill.exe) Change Log 📋
 
 ## v2.0 *(current)* 🆕
 #### 🌟 Improvements:
