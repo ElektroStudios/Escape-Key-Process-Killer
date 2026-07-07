@@ -80,8 +80,6 @@ Syntax: EscKeyProcKill.exe [SWITCHES] [PROCESS NAME]
 | <b><code>/&#8288;KillChilds</code></b> | Terminates the specified target process along with any child processes spawned by it. |
 | <b><code>/&#8288;?</code></b> | Displays the application help and usage syntax. |
 
-<br>
-
 #### 💡 Syntax Examples
 
 | Command | Action Performed |
