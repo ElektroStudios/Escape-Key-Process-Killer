@@ -76,18 +76,18 @@ Syntax: EscKeyProcKill.exe [SWITCHES] [PROCESS NAME]
 
 | Switch | Description |
 | :--- | :--- |
-| <nobr>**`/Recursive`**</nobr> | Terminates all running occurrences of the target process. If omitted, only the first occurrence found will be killed. |
-| <nobr>**`/KillChilds`**</nobr> | Terminates the specified target process along with any child processes spawned by it. |
-| <nobr>**`/?`**</nobr> | Displays the application help and usage syntax. |
+| <code>**`/Recursive`**</code> | Terminates all running occurrences of the target process. If omitted, only the first occurrence found will be killed. |
+| <code>**`/KillChilds`**</code> | Terminates the specified target process along with any child processes spawned by it. |
+| <code>**`/?`**</code> | Displays the application help and usage syntax. |
 
 #### 💡 Syntax Examples
 
 | Command | Action Performed |
 | :--- | :--- |
-| `EscKeyProcKill.exe&nbsp;"notepad.exe"` | Terminates only the **first occurrence** found of `notepad.exe`. |
-| `EscKeyProcKill.exe&nbsp;/Recursive&nbsp;"notepad.exe"` | Terminates **all running occurrences** of `notepad.exe`. |
-| `EscKeyProcKill.exe&nbsp;/KillChilds&nbsp;"notepad.exe"` | Terminates the **first occurrence** of `notepad.exe` and **all of its children**. |
-| `EscKeyProcKill.exe&nbsp;/Recursive&nbsp;/KillChilds&nbsp;"notepad.exe"` | Terminates **every occurrence** of `notepad.exe` along with **all of their children**. |
+| <code>`EscKeyProcKill.exe&nbsp;"notepad.exe"`</code> | Terminates only the **first occurrence** found of `notepad.exe`. |
+| <code>`EscKeyProcKill.exe&nbsp;/Recursive&nbsp;"notepad.exe"`</code> | Terminates **all running occurrences** of `notepad.exe`. |
+| <code>`EscKeyProcKill.exe&nbsp;/KillChilds&nbsp;"notepad.exe"`</code> | Terminates the **first occurrence** of `notepad.exe` and **all of its children**. |
+| <code>`EscKeyProcKill.exe&nbsp;/Recursive&nbsp;/KillChilds&nbsp;"notepad.exe"`</code> | Terminates **every occurrence** of `notepad.exe` along with **all of their children**. |
 
 ## 🔄 Change Log
 
