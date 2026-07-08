@@ -37,6 +37,8 @@
     <a href="https://en.wikipedia.org/wiki/Spanish_Empire"><img src="https://img.shields.io/badge/Made_in-Spain_%F0%9F%87%AA%F0%9F%87%B8-AA151B?style=flat" alt="Made in Spain"></a>
 </p>
 
+------------------
+
 ## 👋 Introduction
 
 This is a simple command-line application that waits on background until you press the ESCAPE key on your keyboard to terminate the specified process.
